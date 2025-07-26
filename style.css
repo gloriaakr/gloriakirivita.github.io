@@ -398,20 +398,4 @@ footer {
   }
 }
 
-.skills-carousel img {
-  all: unset;
-  width: 100px;
-  height: auto;
-  display: inline-block;
-  border-radius: 0;
-  box-shadow: none;
-  background: transparent !important;
-  padding: 0 !important;
-  margin: 0;
-  transition: transform 0.3s ease;
-}
-
-.skills-carousel img:hover {
-  transform: scale(1.05);
-}
 
