@@ -76,6 +76,22 @@ h2 { font-size:2em; margin-bottom:20px; text-align:center; color:#d81b60; }
   background: var(--card);
   padding: 0.5rem;
 }
+
+/* EDIT CAROUSEL ANIMATION */
+.carousel img {
+  transition: transform 0.3s ease;
+  cursor: pointer;
+}
+
+.carousel img:hover {
+  transform: scale(1.1) rotate(2deg);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+
 .portfolio-grid {
   display: flex;
   gap: 1rem;
