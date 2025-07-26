@@ -398,4 +398,16 @@ footer {
   }
 }
 
+.skills-carousel img {
+  background: none !important;
+  padding: 0 !important;
+  box-shadow: none !important;
+  transform: none !important;
+  border: none;
+  cursor: default;
+}
+
+.skills-carousel img:hover {
+  transform: scale(1.05);
+}
 
