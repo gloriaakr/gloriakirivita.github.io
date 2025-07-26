@@ -350,3 +350,33 @@ footer {
 
 
 
+@media screen and (max-width: 768px) {
+  .navbar {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .portfolio-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .hero {
+    padding: 60px 10px;
+  }
+
+  .nav-links {
+    flex-direction: column;
+    gap: 8px;
+  }
+
+  h1, h2, h3 {
+    font-size: 1.2em;
+  }
+
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+}
+
+
