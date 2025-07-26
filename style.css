@@ -69,25 +69,23 @@ h2 { font-size:2em; margin-bottom:20px; text-align:center; color:#d81b60; }
   gap: 1rem;
   justify-content: center;
 }
-
 .carousel img {
-  width: 1px;
+  width: 150px;
   height: 150px;
   border-radius: 12px;
+  background: var(--card);
+  padding: 0.5rem;
+}
+
+/* EDIT CAROUSEL ANIMATION */
+.carousel img {
   transition: transform 0.3s ease;
   cursor: pointer;
-  padding: 0; /* ← kill the padding */
-  background: transparent !important; /* ← kill the boxy bg */
-  box-shadow: none !important; /* ← just in case something sneaky stays */
 }
-
 
 .carousel img:hover {
-  transform: scale(1.15) rotate(3deg) translateY(-5px);
-  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
-  background: transparent !important; /* make sure hover doesn’t bring back the square */
+  transform: scale(1.1) rotate(2deg);
 }
-
 
 html {
   scroll-behavior: smooth;
@@ -116,10 +114,7 @@ html {
   box-shadow:0 4px 8px rgba(0,0,0,0.1);
   transition:transform 0.3s;
 }
-.portfolio-item:hover {
-  transform: translateY(-10px) scale(1.05);
-  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
-}
+.portfolio-item:hover { transform:translateY(-10px); }
 .portfolio-item img { width:100%; display:block; }
 .portfolio-item h3 { padding:15px; background:#fafafa; margin:0; }
 .portfolio-item h3 a { color:#333; text-decoration:none; }
@@ -259,9 +254,9 @@ footer {
 
 
 
-/* Testimonial  Layout */
+/* Testimonial Carousel Layout */
 
-/* ✨  Wrapper */
+/* ✨ Carousel Wrapper */
 .testimonial-carousel-wrapper {
   display: flex;
   align-items: center;
@@ -399,5 +394,7 @@ footer {
     height: auto;
   }
 }
+
+
 
 
