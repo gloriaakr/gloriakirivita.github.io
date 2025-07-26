@@ -73,8 +73,6 @@ h2 { font-size:2em; margin-bottom:20px; text-align:center; color:#d81b60; }
   width: 150px;
   height: 150px;
   border-radius: 12px;
-  background: var(--card);
-  padding: 0.5rem;
 }
 
 /* EDIT CAROUSEL ANIMATION */
@@ -259,9 +257,9 @@ footer {
 
 
 
-/* Testimonial Carousel Layout */
+/* Testimonial  Layout */
 
-/* ✨ Carousel Wrapper */
+/* ✨  Wrapper */
 .testimonial-carousel-wrapper {
   display: flex;
   align-items: center;
