@@ -399,12 +399,16 @@ footer {
 }
 
 .skills-carousel img {
-  background: none !important;
+  all: unset;
+  width: 100px;
+  height: auto;
+  display: inline-block;
+  border-radius: 0;
+  box-shadow: none;
+  background: transparent !important;
   padding: 0 !important;
-  box-shadow: none !important;
-  transform: none !important;
-  border: none;
-  cursor: default;
+  margin: 0;
+  transition: transform 0.3s ease;
 }
 
 .skills-carousel img:hover {
