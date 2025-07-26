@@ -77,6 +77,15 @@ h2 { font-size:2em; margin-bottom:20px; text-align:center; color:#d81b60; }
   padding: 0.5rem;
 }
 
+#skills .carousel img {
+  background: none;
+  padding: 0;
+  object-fit: contain;
+  box-shadow: none;
+  border: none;
+}
+
+
 /* EDIT CAROUSEL ANIMATION */
 .carousel img {
   transition: transform 0.3s ease;
@@ -88,6 +97,12 @@ h2 { font-size:2em; margin-bottom:20px; text-align:center; color:#d81b60; }
   transform: scale(1.15) rotate(3deg) translateY(-5px);
   box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
 }
+
+#skills .carousel img:hover {
+  transform: scale(1.15) rotate(3deg) translateY(-5px);
+  transition: transform 0.3s ease;
+}
+
 
 html {
   scroll-behavior: smooth;
