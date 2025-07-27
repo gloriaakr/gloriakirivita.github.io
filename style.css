@@ -69,30 +69,13 @@ h2 { font-size:2em; margin-bottom:20px; text-align:center; color:#d81b60; }
   gap: 1rem;
   justify-content: center;
 }
-
-#skills .carousel img {
+.carousel img {
   width: 150px;
   height: 150px;
   border-radius: 12px;
-  object-fit: contain;
-  padding: 0;
-  background: none;
-  box-shadow: none;
-  border: none;
-  transition: transform 0.3s ease;
-  cursor: pointer;
+  background: var(--card);
+  padding: 0.5rem;
 }
-
-#skills .carousel img:hover {
-  transform: scale(1.15) rotate(3deg) translateY(-5px);
-  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
-
-
-html {
-  scroll-behavior: smooth;
-}
-
-
 .portfolio-grid {
   display: flex;
   gap: 1rem;
@@ -115,10 +98,7 @@ html {
   box-shadow:0 4px 8px rgba(0,0,0,0.1);
   transition:transform 0.3s;
 }
-.portfolio-item:hover {
-  transform: translateY(-10px) scale(1.05);
-  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
-}
+.portfolio-item:hover { transform:translateY(-10px); }
 .portfolio-item img { width:100%; display:block; }
 .portfolio-item h3 { padding:15px; background:#fafafa; margin:0; }
 .portfolio-item h3 a { color:#333; text-decoration:none; }
@@ -370,34 +350,6 @@ footer {
 
 
 
-@media screen and (max-width: 768px) {
-  .navbar {
-    flex-direction: column;
-    gap: 10px;
-  }
-
-  .portfolio-grid {
-    grid-template-columns: 1fr;
-  }
-
-  .hero {
-    padding: 60px 10px;
-  }
-
-  .nav-links {
-    flex-direction: column;
-    gap: 8px;
-  }
-
-  h1, h2, h3 {
-    font-size: 1.2em;
-  }
-
-  img {
-    max-width: 100%;
-    height: auto;
-  }
-}
 
 
 
