@@ -66,6 +66,19 @@ h2 { font-size:2em; margin-bottom:20px; text-align:center; color:#d81b60; }
 */
 
 
+.carousel {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+}
+.carousel img {
+  width: 150px;
+  height: 150px;
+  border-radius: 12px;
+  background: var(--card);
+  padding: 0.5rem;
+}
+
 #skills .carousel img {
   background: none;
   padding: 0;
@@ -81,22 +94,6 @@ h2 { font-size:2em; margin-bottom:20px; text-align:center; color:#d81b60; }
 
 
 
-
-
-
-
-.carousel {
-  display: flex;
-  gap: 1rem;
-  justify-content: center;
-}
-.carousel img {
-  width: 150px;
-  height: 150px;
-  border-radius: 12px;
-  background: var(--card);
-  padding: 0.5rem;
-}
 .portfolio-grid {
   display: flex;
   gap: 1rem;
