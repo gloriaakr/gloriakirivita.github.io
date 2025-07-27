@@ -79,20 +79,6 @@ h2 { font-size:2em; margin-bottom:20px; text-align:center; color:#d81b60; }
   padding: 0.5rem;
 }
 
-#skills .carousel img {
-  background: none;
-  padding: 0;
-  object-fit: contain;
-  box-shadow: none;
-  border: none;
-}
-
-#skills .carousel img:hover {
-  transform: scale(1.15) rotate(3deg) translateY(-5px);
-  transition: transform 0.3s ease;
-}
-
-
 
 .portfolio-grid {
   display: flex;
@@ -369,6 +355,19 @@ footer {
 
 
 
+
+#skills .carousel img {
+  background: none;
+  padding: 0;
+  object-fit: contain;
+  box-shadow: none;
+  border: none;
+}
+
+#skills .carousel img:hover {
+  transform: scale(1.15) rotate(3deg) translateY(-5px);
+  transition: transform 0.3s ease;
+}
 
 
 
