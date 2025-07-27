@@ -1,37 +1,24 @@
 <!DOCTYPE html>
-<!-- Trigger redeploy 2 -->
+<!-- Trigger redeploy -->
 
 <html lang="en">
 <head>
-  <!-- SEO Meta Tags -->
-<meta name="description" content="Portfolio of Gloria Kirivita – Embedded AI Developer, Entrepreneur, Innovator.">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Gloria Kirivita</title>
+  <link rel="stylesheet" href="style.css" />
+
+
+  <meta name="description" content="Portfolio of Gloria Kirivita – Embedded AI Developer, Entrepreneur, Innovator.">
 <meta name="keywords" content="Gloria Kirivita, AI Projects, Embedded Systems, Tech Portfolio, Engineering, UoB">
 <meta name="author" content="Gloria Kirivita">
 
-<!-- Open Graph / Social Sharing -->
-<meta property="og:title" content="Gloria Kirivita | Tech Portfolio" />
-<meta property="og:description" content="Explore my AI-powered projects, smart devices, and tech with purpose." />
-<meta property="og:image" content="https://gloriabuilds.tech/gloria-icon.png" />
-<meta property="og:url" content="https://gloriabuilds.tech" />
+<!-- Social Sharing -->
+<meta property="og:title" content="Gloria Kirivita Portfolio" />
+<meta property="og:description" content="Explore my AI-powered projects, smart devices and impact-focused tech work." />
+<meta property="og:image" content="https://yourdomain.com/preview.jpg" />
+<meta property="og:url" content="https://yourdomain.com" />
 <meta name="twitter:card" content="summary_large_image" />
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-
-
-<link rel="stylesheet" href="style.css?v=1.0.3" />
-<link rel="apple-touch-icon" href="gloria-icon.png" />
-<link rel="icon" type="image/png" href="gloria-icon.png">
-<!-- AOS Library -->
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" />
-
-<!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-DCSNQTZQCJ"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-  gtag('config', 'G-FMCEMJ25CC');
-</script>
 
 
 </head>
@@ -52,14 +39,14 @@
 </header>
 
 
-  <section id="hero" class="hero" data oas="fade-up">
+  <section id="hero" class="hero">
     <img src="IMG_0016.jpeg" alt="Gloria & Linden" class="profile-photo" />
     <h1>Gloria Kirivita</h1>
     <p class="tagline">Comp Eng @ UoB | Building Embedded AI Projects | Passionate About Tech + Entrepreneurship</p>
     <a href="#about" class="btn">Discover More</a>
   </section>
 
-  <section id="about" class="about reveal" data-aos="fade-right">
+  <section id="about" class="about reveal">
     <h2>About Me</h2>
     <p>Hi! I’m Gloria, a Computer Engineering student at the University of Birmingham with a passion for building smart systems and solving real world problems through tech.</p>
     <p>I’m currently working on projects using ESP32, OLED displays, sensors, and microcontrollers — including an AI powered accountability assistant with a personality, voice feedback, and interactive features. I’m also exploring Raspberry Pi and AI integration to push the boundaries of what I can build.</p>
@@ -69,40 +56,45 @@
 
 
 
-<section id="skills" class="skills reveal active">
-  <h2>Skills</h2>
-  <div class="carousel skills-carousel">
-    <img src="placeholder/tech-html.png" alt="HTML5" />
-    <img src="placeholder/tech-css.png" alt="CSS3" />
-    <img src="placeholder/tech-python.png" alt="Python" />
-    <img src="placeholder/tech-java.png" alt="Java" />
-    <img src="placeholder/tech-arduino.png" alt="Arduino" />
-  </div>
-</section>
+  <section id="skills" class="skills reveal">
+    <h2>Skills</h2>
+        <!--
+    <div class="skill-list">
+          <span>HTML</span><span>CSS</span><span>Python</span><span>Java</span><span>Arduino</span>
+    </div>
+    -->
+    <div class="carousel">
+      <img src="placeholder/tech-html.png" alt="HTML5" />
+      <img src="placeholder/tech-css.png" alt="CSS3" />
+      <img src="placeholder/tech-python.png" alt="Python" />
+      <img src="placeholder/tech-java.png" alt="Java" />
+      <img src="placeholder/tech-arduino.png" alt="Arduino" />
+    </div>
+  </section>
 
-  
-<section id="portfolio" class="reveal" data-aos="fade-up">
-  <h2>Portfolio</h2>
-  <div class="portfolio-grid">
-    <div class="portfolio-item">
-      <img src="project1.png" alt="AI Assistant Project" />
-      <h3><a href="https://github.com/gloriaakr/esp32-accountability-assistant" target="_blank">AI Accountability Assistant</a></h3>
+    <h2>Portfolio</h2>    
+    <div data-aos="fade-up">
     </div>
-    <div class="portfolio-item">
-      <img src="linkedin.png" alt="Download my CV" />
-      <h3><a href="https://www.linkedin.com/in/gloria-k-30a5202ab/" target="_blank">LinkedIn Page</a></h3>
+    <div class="portfolio-grid">
+      <div class="portfolio-item">
+        <img src="project1.png" alt="AI Assistant Project" />
+        <h3><a href="https://github.com/gloriaakr/esp32-accountability-assistant" target="_blank">AI Accountability Assistant</a></h3>
+      </div>
+      <div class="portfolio-item">
+        <img src="linkedin.png" alt="Download my CV" />
+        <h3><a href="https://www.linkedin.com/in/gloria-k-30a5202ab/" target="_blank">Linkedin Page</a></h3>
+      </div>
+      <div class="portfolio-item">
+        <img src="arduino.png" alt="Download my CV" />
+        <h3><a href="https://github.com/gloriaakr/Arduino-bluetooth-controlled-car" target="_blank">Smart arduino mini car</a></h3>
+      </div>
+      <div class="portfolio-item">
+        <img src="snoopy.png" alt="Download my CV" />
+        <h3><a href="https://www.linkedin.com/in/gloria-k-30a5202ab/" target="_blank">Snoopy themed website</a></h3>
+      </div>
+      <!-- add more items here -->
     </div>
-    <div class="portfolio-item">
-      <img src="arduino.png" alt="Arduino Project" />
-      <h3><a href="https://github.com/gloriaakr/Arduino-bluetooth-controlled-car" target="_blank">Smart Arduino Mini Car</a></h3>
-    </div>
-    <div class="portfolio-item">
-      <img src="snoopy.png" alt="Snoopy Site" />
-      <h3><a href="https://www.linkedin.com/in/gloria-k-30a5202ab/" target="_blank">Snoopy Themed Site</a></h3>
-    </div>
-  </div>
-</section>
-
+  </section>
 
     <!-- testimnoals section -->
     <section id="testimonials" class="testimonials">
@@ -182,11 +174,6 @@
 
   <script src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
   <script src="script.js"></script>
-  <!-- AOS Script -->
-<script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
-<script>
-  AOS.init();
-</script>
-
 </body>
 </html>
+
